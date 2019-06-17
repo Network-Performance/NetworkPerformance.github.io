@@ -1,0 +1,11 @@
+<script>
+if("[@authfield:Admin]" == "Yes"){
+window.location = "http://www.mysite.com/admin.html";
+}
+else if ("[@authfield:Manager]" == "Yes"){
+window.location = "http://www.mysite.com/manager.html";
+}
+else{
+window.location = "http://www.mysite.com/employee.html";
+}
+</script>
